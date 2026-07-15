@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sayan Maity — Data Analyst &amp; CSE Graduate</title>
+
+	<meta name="description" content="Portfolio of Sayan Maity, a Computer Science Engineering graduate (2026) working with Excel, Power BI, Tableau, SQL and Python. Dashboards, automation scripts and a few side projects.">
+	<meta name="keywords" content="Sayan Maity, Data Analyst, Power BI, Tableau, Excel, SQL, Python, Portfolio, Guru Nanak Institute of Technology">
+	<meta name="author" content="Sayan Maity">
+	<meta name="robots" content="index, follow">
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Sayan Maity — Data Analyst & CSE Graduate">
+	<meta property="og:description" content="Dashboards, data cleaning and automation projects built with Excel, Power BI, Tableau, SQL and Python.">
+	<meta property="og:url" content="https://sayanmaity264.github.io/">
+
+	<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<a class="skip-link" href="#main">Skip to content</a>
+
+	<!-- Inline icon sprite: avoids a font-icon CDN request, keeps the page self-contained -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+		<defs>
+			<symbol id="icon-github" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.7 1.25 3.36.96.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a10.9 10.9 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.42-2.68 5.4-5.24 5.68.41.36.78 1.06.78 2.14 0 1.54-.01 2.79-.01 3.17 0 .31.21.67.8.56A10.99 10.99 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></symbol>
+			<symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+			<symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm19 2.4-8.1 6.3a1.5 1.5 0 0 1-1.8 0L3 6.4V19h18V6.4ZM3.5 5l8.5 6.6L20.5 5h-17Z"/></symbol>
+			<symbol id="icon-phone" viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1L6.6 10.8Z"/></symbol>
+			<symbol id="icon-pin" viewBox="0 0 24 24"><path d="M12 22s7-7.4 7-12.6A7 7 0 0 0 5 9.4C5 14.6 12 22 12 22Zm0-9.5a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/></symbol>
+			<symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v11.6l3.9-3.9 1.4 1.4L12 17.7 6.7 12.1l1.4-1.4 3.9 3.9V3h2ZM5 19h14v2H5v-2Z"/></symbol>
+			<symbol id="icon-external" viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.4l-9.3 9.3-1.4-1.4L17.6 5H14V3ZM5 5h6v2H5v12h12v-6h2v8H3V5h2Z"/></symbol>
+			<symbol id="icon-sun" viewBox="0 0 24 24"><path d="M12 4V2m0 20v-2M4 12H2m20 0h-2M5.6 5.6 4.2 4.2m15.6 15.6-1.4-1.4M5.6 18.4l-1.4 1.4M18.4 5.6l1.4-1.4M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+			<symbol id="icon-moon" viewBox="0 0 24 24"><path d="M20.6 14.5A8.7 8.7 0 0 1 9.5 3.4 9 9 0 1 0 20.6 14.5Z"/></symbol>
+			<symbol id="icon-menu" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z"/></symbol>
+			<symbol id="icon-close" viewBox="0 0 24 24"><path d="M6.4 5 5 6.4 10.6 12 5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6L19 6.4 17.6 5 12 10.6 6.4 5Z"/></symbol>
+			<symbol id="icon-chart" viewBox="0 0 24 24"><path d="M4 20V10h3v10H4Zm6.5 0V4h3v16h-3ZM17 20v-7h3v7h-3Z"/></symbol>
+			<symbol id="icon-code" viewBox="0 0 24 24"><path d="m8.5 6.5-6 5.5 6 5.5 1.3-1.4L5.3 12l4.5-4.1L8.5 6.5Zm7 0-1.3 1.4L18.7 12l-4.5 4.1 1.3 1.4 6-5.5-6-5.5Z"/></symbol>
+			<symbol id="icon-terminal" viewBox="0 0 24 24"><path d="M2 4h20v16H2V4Zm2 2v12h16V6H4Zm2.7 2.3 3.5 3.5-3.5 3.5-1.4-1.4L8.4 11 5.3 7.9l1.4-1.6ZM12 15h6v2h-6v-2Z"/></symbol>
+			<symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 11h13.2l-4.6-4.6L14 5l7 7-7 7-1.4-1.4 4.6-4.6H4v-2Z"/></symbol>
+		</defs>
+	</svg>
+
+	<!-- Fixed to the viewport regardless of sidebar transform state -->
+	<button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="sidebar" aria-label="Toggle navigation menu">
+		<svg class="icon icon-menu-open" aria-hidden="true"><use href="#icon-menu"></use></svg>
+		<svg class="icon icon-menu-close" aria-hidden="true"><use href="#icon-close"></use></svg>
+	</button>
+
+	<!-- Sidebar: identity, nav, theme toggle, socials -->
+	<header class="sidebar" id="sidebar">
+		<div class="sidebar-inner">
+			<div class="identity">
+				<div class="avatar" aria-hidden="true">SM</div>
+				<h1>Sayan Maity</h1>
+				<p class="role">Data Analyst &amp; CSE Graduate</p>
+			</div>
+
+			<nav class="main-nav" aria-label="Primary">
+				<ul>
+					<li><a href="#intro" class="nav-link">Intro</a></li>
+					<li><a href="#about" class="nav-link">About</a></li>
+					<li><a href="#education" class="nav-link">Education</a></li>
+					<li><a href="#skills" class="nav-link">Skills</a></li>
+					<li><a href="#projects" class="nav-link">Projects</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="sidebar-footer">
+				<button class="theme-toggle" id="themeToggle" aria-label="Switch to dark theme" aria-pressed="false">
+					<svg class="icon icon-sun" aria-hidden="true"><use href="#icon-sun"></use></svg>
+					<svg class="icon icon-moon" aria-hidden="true"><use href="#icon-moon"></use></svg>
+					<span class="theme-toggle-label">Theme</span>
+				</button>
+
+				<ul class="social-links">
+					<li><a href="https://github.com/sayanmaity264" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg></a></li>
+					<li><a href="https://www.linkedin.com/in/sayanmaity-sm9883/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg></a></li>
+					<li><a href="mailto:sayanmaity264@gmail.com" aria-label="Email"><svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg></a></li>
+				</ul>
+
+				<p class="copyright">&copy; <span id="year"></span> Sayan Maity</p>
+			</div>
+		</div>
+	</header>
+
+	<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+	<main id="main">
+
+		<!-- ================= INTRO / HERO ================= -->
+		<section id="intro" class="section intro-section">
+			<div class="section-inner">
+				<p class="eyebrow reveal">Based in Kolkata, West Bengal, India</p>
+				<h2 class="intro-heading reveal">I turn raw data into dashboards people actually use.</h2>
+				<p class="intro-lede reveal">
+					Computer Science Engineering graduate (B.Tech, 2026). I clean messy spreadsheets,
+					build dashboards in Power BI and Tableau, and write Python and SQL to automate the parts of the job
+					nobody wants to do twice.
+				</p>
+				<div class="intro-actions reveal">
+					<a href="#projects" class="btn btn-primary">View Projects</a>
+					<a href="assets/Sayan_Maity_Resume.pdf" class="btn btn-outline" download>
+						<svg class="icon" aria-hidden="true"><use href="#icon-download"></use></svg>
+						Download Resume
+					</a>
+					<a href="#contact" class="btn btn-text">Get in touch</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- ================= ABOUT ================= -->
+		<section id="about" class="section">
+			<div class="section-inner">
+				<h2 class="section-title reveal">About</h2>
+				<div class="about-content reveal">
+					<p>
+						I completed my B.Tech in Computer Science Engineering at Guru Nanak Institute of Technology
+						in 2026 with a CGPA of 8.8/10. Most of what I build sits at the intersection of
+						data and code: an Excel dashboard for bike sales figures, a Power BI model built from a
+						data-professionals survey, a Tableau dashboard on Airbnb pricing, and a Python script that
+						sorts files so I don't have to.
+					</p>
+					<p>
+						Outside the data stack, I like poking at the rest of the toolbox too. I've containerized a
+						Flask app with Docker — a plain build and a distroless multi-stage one — and worked through
+						deploying it to AWS ECS as part of a DevOps course. I also built a small real-time multiplayer
+						Ludo game with Node.js and Socket.IO, mostly to understand how WebSockets actually keep game
+						state in sync instead of just reading about it.
+					</p>
+					<p>
+						Right now I'm looking for an entry-level data analyst role — somewhere I can keep doing this
+						kind of work with real data and real stakeholders on the other end of the dashboard.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- ================= EDUCATION ================= -->
+		<section id="education" class="section">
+			<div class="section-inner">
+				<h2 class="section-title reveal">Education</h2>
+				<ol class="timeline reveal">
+					<li class="timeline-item">
+						<div class="timeline-year">2022 – 2026</div>
+						<div class="timeline-body">
+							<h3>Guru Nanak Institute of Technology</h3>
+							<p>B.Tech in Computer Science &amp; Engineering — CGPA 8.8 / 10</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-year">2022</div>
+						<div class="timeline-body">
+							<h3>Sundarban Janakalyan Sangha Vidyaniketan</h3>
+							<p>Higher Secondary — 91.3%</p>
+						</div>
+					</li>
+					<li class="timeline-item">
+						<div class="timeline-year">2020</div>
+						<div class="timeline-body">
+							<h3>Krishnanagar High School</h3>
+							<p>Secondary — 89%</p>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<!-- ================= SKILLS ================= -->
+		<section id="skills" class="section">
+			<div class="section-inner">
+				<h2 class="section-title reveal">Technical Skills</h2>
+				<div class="skills-grid reveal">
+					<div class="skill-group">
+						<div class="skill-group-header">
+							<svg class="icon" aria-hidden="true"><use href="#icon-chart"></use></svg>
+							<h3>Data &amp; BI</h3>
+						</div>
+						<ul class="skill-tags">
+							<li>Excel</li><li>Power Query</li><li>PivotTables</li><li>Power BI</li><li>DAX</li><li>Tableau</li><li>SQL</li>
+						</ul>
+					</div>
+					<div class="skill-group">
+						<div class="skill-group-header">
+							<svg class="icon" aria-hidden="true"><use href="#icon-code"></use></svg>
+							<h3>Programming</h3>
+						</div>
+						<ul class="skill-tags">
+							<li>Python</li><li>Pandas</li><li>NumPy</li><li>Java</li><li>JavaScript</li><li>HTML/CSS</li>
+						</ul>
+					</div>
+					<div class="skill-group">
+						<div class="skill-group-header">
+							<svg class="icon" aria-hidden="true"><use href="#icon-terminal"></use></svg>
+							<h3>Tools &amp; Platforms</h3>
+						</div>
+						<ul class="skill-tags">
+							<li>Git</li><li>GitHub</li><li>Linux</li><li>Docker</li><li>AWS ECS</li><li>Node.js</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ================= PROJECTS ================= -->
+		<section id="projects" class="section">
+			<div class="section-inner">
+				<h2 class="section-title reveal">Projects</h2>
+				<p class="section-lede reveal">Seven projects that cover most of what I actually do — data cleaning, dashboards, automation, and a couple of software builds outside the data stack.</p>
+
+				<div class="project-grid">
+
+					<article class="project-card reveal">
+						<div class="project-thumb" data-icon="chart">
+							<svg class="icon" aria-hidden="true"><use href="#icon-chart"></use></svg>
+						</div>
+						<div class="project-body">
+							<h3>Bike Sales — Exploratory Analysis &amp; Dashboard</h3>
+							<p class="project-tech">Excel · Power Query · PivotTables</p>
+							<p>Raw bike sales data came in with duplicate rows and inconsistent formatting. I cleaned it up in Power Query, then built an interactive dashboard with PivotTables, PivotCharts and slicers to break sales down by product and region.</p>
+							<a class="project-link" href="https://github.com/sayanmaity264/Data-Analytics-Portfolio/tree/main/Excel" target="_blank" rel="noopener noreferrer">
+								View on GitHub <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-external"></use></svg>
+							</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal">
+						<div class="project-thumb" data-icon="chart">
+							<svg class="icon" aria-hidden="true"><use href="#icon-chart"></use></svg>
+						</div>
+						<div class="project-body">
+							<h3>Data Professional Survey Breakdown</h3>
+							<p class="project-tech">Power BI · DAX · Data Modeling</p>
+							<p>Modeled survey responses from working data professionals into a Power BI data model, then wrote DAX measures and slicers so the dashboard can be filtered by role, experience and compensation to see how skill demand and job satisfaction shift across the field.</p>
+							<a class="project-link" href="https://github.com/sayanmaity264/Data-Analytics-Portfolio/tree/main/Power%20BI" target="_blank" rel="noopener noreferrer">
+								View on GitHub <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-external"></use></svg>
+							</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal">
+						<div class="project-thumb project-thumb-image">
+							<img src="https://raw.githubusercontent.com/sayanmaity264/Data-Analytics-Portfolio/main/Tableau/Airbnb_project_png.png" alt="Tableau dashboard showing Airbnb pricing by bedroom count and zip code" loading="lazy" width="600" height="338">
+						</div>
+						<div class="project-body">
+							<h3>Airbnb Price &amp; Revenue Analysis</h3>
+							<p class="project-tech">Tableau</p>
+							<p>An interactive dashboard on Airbnb listing data — charts, maps and filters to look at pricing, revenue trends, bedroom-wise listings, and how price shifts by zip code.</p>
+							<a class="project-link" href="https://github.com/sayanmaity264/Data-Analytics-Portfolio/tree/main/Tableau" target="_blank" rel="noopener noreferrer">
+								View on GitHub <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-external"></use></svg>
+							</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal">
+						<div class="project-thumb" data-icon="code">
+							<svg class="icon" aria-hidden="true"><use href="#icon-code"></use></svg>
+						</div>
+						<div class="project-body">
+							<h3>Automated File Sorter</h3>
+							<p class="project-tech">Python</p>
+							<p>A script that watches a folder and sorts incoming files into subfolders by type automatically. The rule set is config-driven, so routing a new file type doesn't mean touching the core script.</p>
+							<a class="project-link" href="https://github.com/sayanmaity264/Data-Analytics-Portfolio/tree/main/Python" target="_blank" rel="noopener noreferrer">
+								View on GitHub <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-external"></use></svg>
+							</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal">
+						<div class="project-thumb" data-icon="terminal">
+							<svg class="icon" aria-hidden="true"><use href="#icon-terminal"></use></svg>
+						</div>
+						<div class="project-body">
+							<h3>Flask App — Docker &amp; AWS ECS Deployment</h3>
+							<p class="project-tech">Python · Flask · Docker · AWS ECS</p>
+							<p>A small Flask app containerized two ways — a plain single-stage build and a distroless multi-stage build for production — with a /health endpoint for load balancer checks. Built while working through a course on containerization and ECS deployment.</p>
+							<a class="project-link" href="https://github.com/sayanmaity264/test-api--ec2-docker" target="_blank" rel="noopener noreferrer">
+								View on GitHub <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-external"></use></svg>
+							</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal">
+						<div class="project-thumb" data-icon="code">
+							<svg class="icon" aria-hidden="true"><use href="#icon-code"></use></svg>
+						</div>
+						<div class="project-body">
+							<h3>Real-Time Ludo Game</h3>
+							<p class="project-tech">Node.js · Express · Socket.IO</p>
+							<p>A real-time multiplayer Ludo demo — players connect and take turns rolling dice with board state kept in sync across clients over WebSockets. Built to actually understand real-time state management, not just read about it.</p>
+							<a class="project-link" href="https://github.com/sayanmaity264/ludo-user" target="_blank" rel="noopener noreferrer">
+								View on GitHub <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-external"></use></svg>
+							</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal">
+						<div class="project-thumb" data-icon="code">
+							<svg class="icon" aria-hidden="true"><use href="#icon-code"></use></svg>
+						</div>
+						<div class="project-body">
+							<h3>Amazon Price Tracker</h3>
+							<p class="project-tech">Python · BeautifulSoup · Requests · Pandas</p>
+							<p>Scrapes the title, price and rating off an Amazon product page and logs each check to a CSV with pandas. Wrapped it in a loop that re-checks the price roughly once a day, so the CSV builds into a simple price history over time.</p>
+							<a class="project-link" href="https://github.com/sayanmaity264/Data-Analytics-Portfolio/blob/main/Python/Amazon_Web_Scraping.ipynb" target="_blank" rel="noopener noreferrer">
+								View on GitHub <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-external"></use></svg>
+							</a>
+						</div>
+					</article>
+
+				</div>
+
+				<p class="more-projects reveal">
+					A few smaller exercises — a password strength checker and a photographer portfolio layout — are on
+					<a href="https://github.com/sayanmaity264?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>.
+				</p>
+			</div>
+		</section>
+
+		<!-- ================= CONTACT ================= -->
+		<section id="contact" class="section">
+			<div class="section-inner">
+				<h2 class="section-title reveal">Contact</h2>
+				<p class="section-lede reveal">Open to entry-level data analyst roles and internships. The fastest way to reach me is email.</p>
+
+				<div class="contact-grid reveal">
+					<ul class="contact-details">
+						<li>
+							<svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg>
+							<a href="mailto:sayanmaity264@gmail.com">sayanmaity264@gmail.com</a>
+						</li>
+						<li>
+							<svg class="icon" aria-hidden="true"><use href="#icon-phone"></use></svg>
+							<a href="tel:+919883251882">+91 98832 51882</a>
+						</li>
+						<li>
+							<svg class="icon" aria-hidden="true"><use href="#icon-pin"></use></svg>
+							<span>South 24 Parganas, West Bengal, India</span>
+						</li>
+					</ul>
+
+					<form class="contact-form" id="contactForm" novalidate>
+						<div class="form-row">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" required autocomplete="name">
+						</div>
+						<div class="form-row">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" required autocomplete="email">
+						</div>
+						<div class="form-row">
+							<label for="message">Message</label>
+							<textarea id="message" name="message" rows="4" required></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Send Message</button>
+						<p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer class="site-footer">
+			<p>Built by Sayan Maity with plain HTML, CSS and JavaScript.</p>
+		</footer>
+
+	</main>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
